@@ -1,0 +1,90 @@
+\hypertarget{class_micro_f_p_s_1_1_player_manager_impl}{
+\section{MicroFPS::PlayerManagerImpl Class Reference}
+\label{da/db1/class_micro_f_p_s_1_1_player_manager_impl}\index{MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}}
+}
+Inheritance diagram for MicroFPS::PlayerManagerImpl:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{da/db1/class_micro_f_p_s_1_1_player_manager_impl}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_player_manager_impl_a76938231c208b8b16f76c95b23493446}{PlayerManagerImpl} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_player_manager_impl_a9a19669ec555580e721cef6a08f720e1}{$\sim$PlayerManagerImpl} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_player}{Player} $\ast$ \hyperlink{class_micro_f_p_s_1_1_player_manager_impl_a95b84e7b440182d0527d2306aa6ac3a3}{getPlayer} () const 
+\item 
+virtual bool \hyperlink{class_micro_f_p_s_1_1_player_manager_impl_a4f69ae6977b4d92b8cdb4da09812a942}{setPlayer} (\hyperlink{class_micro_f_p_s_1_1_player}{Player} $\ast$player)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_player_manager_impl_a76938231c208b8b16f76c95b23493446}{
+\index{MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}!PlayerManagerImpl@{PlayerManagerImpl}}
+\index{PlayerManagerImpl@{PlayerManagerImpl}!MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}}
+\subsubsection[{PlayerManagerImpl}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::PlayerManagerImpl::PlayerManagerImpl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{da/db1/class_micro_f_p_s_1_1_player_manager_impl_a76938231c208b8b16f76c95b23493446}
+Constructor \hypertarget{class_micro_f_p_s_1_1_player_manager_impl_a9a19669ec555580e721cef6a08f720e1}{
+\index{MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}!$\sim$PlayerManagerImpl@{$\sim$PlayerManagerImpl}}
+\index{$\sim$PlayerManagerImpl@{$\sim$PlayerManagerImpl}!MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}}
+\subsubsection[{$\sim$PlayerManagerImpl}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::PlayerManagerImpl::$\sim$PlayerManagerImpl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{da/db1/class_micro_f_p_s_1_1_player_manager_impl_a9a19669ec555580e721cef6a08f720e1}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_player_manager_impl_a95b84e7b440182d0527d2306aa6ac3a3}{
+\index{MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}!getPlayer@{getPlayer}}
+\index{getPlayer@{getPlayer}!MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}}
+\subsubsection[{getPlayer}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Player}$\ast$ MicroFPS::PlayerManagerImpl::getPlayer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{da/db1/class_micro_f_p_s_1_1_player_manager_impl_a95b84e7b440182d0527d2306aa6ac3a3}
+getPlayer \begin{DoxyReturn}{Returns}
+\hyperlink{class_micro_f_p_s_1_1_player}{Player} $\ast$ -\/ pointer to current player node 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_micro_f_p_s_1_1_player_manager_a5a9c131a145a444183b3483d563d4909}{MicroFPS::PlayerManager}.
+
+\hypertarget{class_micro_f_p_s_1_1_player_manager_impl_a4f69ae6977b4d92b8cdb4da09812a942}{
+\index{MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}!setPlayer@{setPlayer}}
+\index{setPlayer@{setPlayer}!MicroFPS::PlayerManagerImpl@{MicroFPS::PlayerManagerImpl}}
+\subsubsection[{setPlayer}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool MicroFPS::PlayerManagerImpl::setPlayer (
+\begin{DoxyParamCaption}
+\item[{{\bf Player} $\ast$}]{player}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{da/db1/class_micro_f_p_s_1_1_player_manager_impl_a4f69ae6977b4d92b8cdb4da09812a942}
+setPlayer
+\begin{DoxyItemize}
+\item This function will \_\-DESTROY\_\- the current player if the input is valid 
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_micro_f_p_s_1_1_player}{Player}} & $\ast$ -\/ player to replace the current one \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool -\/ true if successful, false if not 
+\end{DoxyReturn}
+
+\end{DoxyItemize}
+
+Implements \hyperlink{class_micro_f_p_s_1_1_player_manager_af0cce69401982b0d3a0a37b77e55879b}{MicroFPS::PlayerManager}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Impl/PlayerManagerImpl.h\end{DoxyCompactItemize}

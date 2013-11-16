@@ -1,0 +1,68 @@
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash}{
+\section{MicroFPS::core::Hash$<$ K, T $>$ Class Template Reference}
+\label{de/d32/class_micro_f_p_s_1_1core_1_1_hash}\index{MicroFPS::core::Hash@{MicroFPS::core::Hash}}
+}
+
+
+{\ttfamily \#include $<$Hash.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1core_1_1_hash_a059a1b43b81b3b39f81b8d71269a62a8}{Hash} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_a35eebce9a73d3452a0693bf17a502d8b}{$\sim$Hash} ()
+\item 
+virtual u32 \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_ac09df61206d211ee5bbdbe64a1624d47}{operator()} (const K \&key, u32 size) const =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class K, class T$>$class MicroFPS::core::Hash$<$ K, T $>$}
+
+\hyperlink{class_micro_f_p_s_1_1core_1_1_hash}{Hash} Abstract base class for hashing functions 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_a059a1b43b81b3b39f81b8d71269a62a8}{
+\index{MicroFPS::core::Hash@{MicroFPS::core::Hash}!Hash@{Hash}}
+\index{Hash@{Hash}!MicroFPS::core::Hash@{MicroFPS::core::Hash}}
+\subsubsection[{Hash}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ {\bf MicroFPS::core::Hash}$<$ K, T $>$::{\bf Hash} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{de/d32/class_micro_f_p_s_1_1core_1_1_hash_a059a1b43b81b3b39f81b8d71269a62a8}
+Constructor \hypertarget{class_micro_f_p_s_1_1core_1_1_hash_a35eebce9a73d3452a0693bf17a502d8b}{
+\index{MicroFPS::core::Hash@{MicroFPS::core::Hash}!$\sim$Hash@{$\sim$Hash}}
+\index{$\sim$Hash@{$\sim$Hash}!MicroFPS::core::Hash@{MicroFPS::core::Hash}}
+\subsubsection[{$\sim$Hash}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual {\bf MicroFPS::core::Hash}$<$ K, T $>$::$\sim${\bf Hash} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{de/d32/class_micro_f_p_s_1_1core_1_1_hash_a35eebce9a73d3452a0693bf17a502d8b}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_ac09df61206d211ee5bbdbe64a1624d47}{
+\index{MicroFPS::core::Hash@{MicroFPS::core::Hash}!operator()@{operator()}}
+\index{operator()@{operator()}!MicroFPS::core::Hash@{MicroFPS::core::Hash}}
+\subsubsection[{operator()}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual u32 {\bf MicroFPS::core::Hash}$<$ K, T $>$::operator() (
+\begin{DoxyParamCaption}
+\item[{const K \&}]{key, }
+\item[{u32}]{size}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{de/d32/class_micro_f_p_s_1_1core_1_1_hash_ac09df61206d211ee5bbdbe64a1624d47}
+operator() functor to execute hash function \begin{DoxyReturn}{Returns}
+u32 hash value 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_string_hash_ab5d8c7e696373cfe671bbc58c3135d9c}{MicroFPS::core::StringHash$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_string_hash_ab5d8c7e696373cfe671bbc58c3135d9c}{MicroFPS::core::StringHash$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_string_hash_ab5d8c7e696373cfe671bbc58c3135d9c}{MicroFPS::core::StringHash$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_string_hash_ab5d8c7e696373cfe671bbc58c3135d9c}{MicroFPS::core::StringHash$<$ Weapon $\ast$ $>$}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Core/Hash.h\end{DoxyCompactItemize}

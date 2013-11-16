@@ -1,0 +1,91 @@
+\hypertarget{class_micro_f_p_s_1_1_render_manager}{
+\section{MicroFPS::RenderManager Class Reference}
+\label{d2/dad/class_micro_f_p_s_1_1_render_manager}\index{MicroFPS::RenderManager@{MicroFPS::RenderManager}}
+}
+Inheritance diagram for MicroFPS::RenderManager:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/dad/class_micro_f_p_s_1_1_render_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_render_manager_aa5cfdf42a7aeed598d8cd6b406ba2224}{RenderManager} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_render_manager_aee2394d07bc912d3165fe4dbd4a456dd}{$\sim$RenderManager} ()
+\item 
+virtual renderer \hyperlink{class_micro_f_p_s_1_1_render_manager_acb0e88bc424463200c4bdf451ea3c3ad}{getRenderDevice} () const =0
+\item 
+virtual bool \hyperlink{class_micro_f_p_s_1_1_render_manager_a32778d202b6dcde145be54846a6a9a64}{loop} () const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_render_manager_af258ceee6bf336eaf765c9178ef5becc}{gameLoop} (\hyperlink{class_micro_f_p_s_1_1_game_state}{GameState} $\ast$state=0)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_render_manager_aa5cfdf42a7aeed598d8cd6b406ba2224}{
+\index{MicroFPS::RenderManager@{MicroFPS::RenderManager}!RenderManager@{RenderManager}}
+\index{RenderManager@{RenderManager}!MicroFPS::RenderManager@{MicroFPS::RenderManager}}
+\subsubsection[{RenderManager}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::RenderManager::RenderManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{d2/dad/class_micro_f_p_s_1_1_render_manager_aa5cfdf42a7aeed598d8cd6b406ba2224}
+\hyperlink{class_micro_f_p_s_1_1_render_manager_aa5cfdf42a7aeed598d8cd6b406ba2224}{RenderManager()} Default constructor \hypertarget{class_micro_f_p_s_1_1_render_manager_aee2394d07bc912d3165fe4dbd4a456dd}{
+\index{MicroFPS::RenderManager@{MicroFPS::RenderManager}!$\sim$RenderManager@{$\sim$RenderManager}}
+\index{$\sim$RenderManager@{$\sim$RenderManager}!MicroFPS::RenderManager@{MicroFPS::RenderManager}}
+\subsubsection[{$\sim$RenderManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::RenderManager::$\sim$RenderManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{d2/dad/class_micro_f_p_s_1_1_render_manager_aee2394d07bc912d3165fe4dbd4a456dd}
+\hyperlink{class_micro_f_p_s_1_1_render_manager_aee2394d07bc912d3165fe4dbd4a456dd}{$\sim$RenderManager()} virtual destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_render_manager_af258ceee6bf336eaf765c9178ef5becc}{
+\index{MicroFPS::RenderManager@{MicroFPS::RenderManager}!gameLoop@{gameLoop}}
+\index{gameLoop@{gameLoop}!MicroFPS::RenderManager@{MicroFPS::RenderManager}}
+\subsubsection[{gameLoop}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::RenderManager::gameLoop (
+\begin{DoxyParamCaption}
+\item[{{\bf GameState} $\ast$}]{state = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/dad/class_micro_f_p_s_1_1_render_manager_af258ceee6bf336eaf765c9178ef5becc}
+gameLoop Get game loop 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_render_manager_impl_a5967f1a8917ea93a5e9a1fd4ec2beedc}{MicroFPS::RenderManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_render_manager_acb0e88bc424463200c4bdf451ea3c3ad}{
+\index{MicroFPS::RenderManager@{MicroFPS::RenderManager}!getRenderDevice@{getRenderDevice}}
+\index{getRenderDevice@{getRenderDevice}!MicroFPS::RenderManager@{MicroFPS::RenderManager}}
+\subsubsection[{getRenderDevice}]{\setlength{\rightskip}{0pt plus 5cm}virtual renderer MicroFPS::RenderManager::getRenderDevice (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/dad/class_micro_f_p_s_1_1_render_manager_acb0e88bc424463200c4bdf451ea3c3ad}
+getRenderDevice Retrieves the render device for the game 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_render_manager_impl_ae20d62f6586e0b9fd2513d7b880f65fc}{MicroFPS::RenderManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_render_manager_a32778d202b6dcde145be54846a6a9a64}{
+\index{MicroFPS::RenderManager@{MicroFPS::RenderManager}!loop@{loop}}
+\index{loop@{loop}!MicroFPS::RenderManager@{MicroFPS::RenderManager}}
+\subsubsection[{loop}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool MicroFPS::RenderManager::loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/dad/class_micro_f_p_s_1_1_render_manager_a32778d202b6dcde145be54846a6a9a64}
+loop Determine whether to continue looping or not 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_render_manager_impl_afa5e1bcacb69beb73f00701db08769d2}{MicroFPS::RenderManagerImpl}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Managers/RenderManager.h\end{DoxyCompactItemize}

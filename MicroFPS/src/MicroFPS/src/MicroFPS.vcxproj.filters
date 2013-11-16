@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\typedefs">
+      <UniqueIdentifier>{ee1d291d-2842-4e96-afe1-9e1c0cfb66d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderEngines">
+      <UniqueIdentifier>{bf9835c9-c662-4971-9f7b-11818a6db0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PhysicsEngines">
+      <UniqueIdentifier>{14e3191f-b667-4c31-be8b-d7ea18eac520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{f54df24e-2090-464a-ac77-9c51d54d5ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{43455b4e-fcaa-4620-9636-8ddbe07553a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{415cb12c-6087-4943-b9f8-3d7b8db75442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{ed06d57f-b6c6-4a49-9b0f-6fb931d6a117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PhysicsEngines">
+      <UniqueIdentifier>{ff8d338a-943e-4e81-a538-b18c2777a48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderEngines">
+      <UniqueIdentifier>{f77ae2d4-d408-4078-abd2-70cc28e768a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{93b8e453-b86a-424c-8f29-cceb3b65b76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{32089ab5-3a48-437e-bcee-6ad3f4d0a5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{8778b18c-b3d0-4f5c-896a-ed9098cc277f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Impl">
+      <UniqueIdentifier>{7acda650-a215-4585-9f15-fb512f314d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Impl">
+      <UniqueIdentifier>{1cc6011e-90a9-4c47-be97-19ce865cdba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{13b09259-2272-4736-a30e-a30adb05786b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{29653d24-a88a-4982-b093-394dedb8fc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{8a7ea344-1da5-4939-8996-d47245950be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventHandler">
+      <UniqueIdentifier>{20f582a9-767f-4443-bc98-d896f0019b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventHandler">
+      <UniqueIdentifier>{225c4f52-ced0-45c2-ae82-9b679d083f0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngines\Irrlicht_Renderer.cpp">
+      <Filter>Source Files\RenderEngines</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\DefaultCamera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngines\Bullet_Physics.cpp">
+      <Filter>Source Files\PhysicsEngines</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\GameManagerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\PhysicsManagerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\PlayerManagerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\RenderManagerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\StateManagerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\PlayerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\WeaponManagerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Array.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StringHash.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GeneralMenu.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\GUIManagerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GenericHandler.cpp">
+      <Filter>Source Files\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\EventHandlerImpl.cpp">
+      <Filter>Source Files\Impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="typedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefs\Irrlicht_Typedef.h">
+      <Filter>Header Files\typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefs\Ogre3D_Typedef.h">
+      <Filter>Header Files\typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="MicroFPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="universal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\GameManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngines\Irrlicht_Renderer.h">
+      <Filter>Header Files\RenderEngines</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngines\Renderer.h">
+      <Filter>Header Files\RenderEngines</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\StateManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\DefaultCamera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefs\Bullet_Typedefs.h">
+      <Filter>Header Files\typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefs\Havok_Typedefs.h">
+      <Filter>Header Files\typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngines\Bullet_Physics.h">
+      <Filter>Header Files\PhysicsEngines</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngines\Physics.h">
+      <Filter>Header Files\PhysicsEngines</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\PhysicsManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\PlayerManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Weapon.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\WeaponManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\GameManagerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\PhysicsManagerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\PlayerManagerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\RenderManagerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\StateManagerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\PlayerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\WeaponManagerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Hash.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Array.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StringHash.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\HashTable.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="States\MicroFPS_Default_State.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\GameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GeneralMenu.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\GUIManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\GUIManagerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\EventHandler.h">
+      <Filter>Header Files\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GenericHandler.h">
+      <Filter>Header Files\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\EventManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\EventManagerImpl.h">
+      <Filter>Header Files\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\RenderManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

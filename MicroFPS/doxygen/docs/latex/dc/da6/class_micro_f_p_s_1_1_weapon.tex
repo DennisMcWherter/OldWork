@@ -1,0 +1,198 @@
+\hypertarget{class_micro_f_p_s_1_1_weapon}{
+\section{MicroFPS::Weapon Class Reference}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon}\index{MicroFPS::Weapon@{MicroFPS::Weapon}}
+}
+
+
+{\ttfamily \#include $<$Weapon.h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects}{Effects}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_weapon_ae44ca13b30cf0d011cc82be7e1183ca8}{Weapon} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_weapon_a8e8a7e6591ef3edff8f39197001be631}{$\sim$Weapon} ()
+\item 
+virtual u16 \hyperlink{class_micro_f_p_s_1_1_weapon_ac6c42acd69cdfe1808c86033358a715b}{getAmmo} () const =0
+\item 
+virtual u16 \hyperlink{class_micro_f_p_s_1_1_weapon_a4ba6521f0ebfc3e1809ae67010c0534c}{getClip} () const =0
+\item 
+virtual s16 \hyperlink{class_micro_f_p_s_1_1_weapon_ad619ae94202880032139eb0cd4134e70}{getDamage} () const =0
+\item 
+virtual u16 \hyperlink{class_micro_f_p_s_1_1_weapon_a8bbe1026f022a0c179353d25f45a518f}{getMaxCapacity} () const =0
+\item 
+virtual u16 \hyperlink{class_micro_f_p_s_1_1_weapon_a299e525125412e9a4c7a60d4fea3e33b}{getMaxClipSize} () const =0
+\item 
+virtual stringw \hyperlink{class_micro_f_p_s_1_1_weapon_a7dfc1a991ce1433aea63767b544ae2c4}{getWeaponName} () const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_aeb8e20ca29e3e54b6593fe00166c7a96}{decreaseAmmo} (u16 ammo)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_afb40966eb236685373e5c7220bc9ad1c}{addAmmo} (u16 ammo)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_acc61092a5e3f0d51fcab4320fc2553f6}{setAmmo} (u16 ammo)=0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects}{Effects} $\ast$ \hyperlink{class_micro_f_p_s_1_1_weapon_a415e5fd2b9831fb91a6ab7371a1f3094}{getEffects} () const =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_micro_f_p_s_1_1_weapon}{Weapon} Abstract Base class for Weapons 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_weapon_ae44ca13b30cf0d011cc82be7e1183ca8}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!Weapon@{Weapon}}
+\index{Weapon@{Weapon}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{Weapon}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::Weapon::Weapon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_ae44ca13b30cf0d011cc82be7e1183ca8}
+Constructor \hypertarget{class_micro_f_p_s_1_1_weapon_a8e8a7e6591ef3edff8f39197001be631}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!$\sim$Weapon@{$\sim$Weapon}}
+\index{$\sim$Weapon@{$\sim$Weapon}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{$\sim$Weapon}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::Weapon::$\sim$Weapon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_a8e8a7e6591ef3edff8f39197001be631}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_weapon_afb40966eb236685373e5c7220bc9ad1c}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!addAmmo@{addAmmo}}
+\index{addAmmo@{addAmmo}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{addAmmo}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Weapon::addAmmo (
+\begin{DoxyParamCaption}
+\item[{u16}]{ammo}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_afb40966eb236685373e5c7220bc9ad1c}
+addAmmo Gain ammo :) 
+\begin{DoxyParams}{Parameters}
+{\em u16} & ammo -\/ ammo to add \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_micro_f_p_s_1_1_weapon_aeb8e20ca29e3e54b6593fe00166c7a96}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!decreaseAmmo@{decreaseAmmo}}
+\index{decreaseAmmo@{decreaseAmmo}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{decreaseAmmo}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Weapon::decreaseAmmo (
+\begin{DoxyParamCaption}
+\item[{u16}]{ammo}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_aeb8e20ca29e3e54b6593fe00166c7a96}
+decreaseAmmo Using ammo (i.e. shooting gun) 
+\begin{DoxyParams}{Parameters}
+{\em u16} & ammo -\/ amount of ammo to remove \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_micro_f_p_s_1_1_weapon_ac6c42acd69cdfe1808c86033358a715b}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!getAmmo@{getAmmo}}
+\index{getAmmo@{getAmmo}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{getAmmo}]{\setlength{\rightskip}{0pt plus 5cm}virtual u16 MicroFPS::Weapon::getAmmo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_ac6c42acd69cdfe1808c86033358a715b}
+getNode Get the weapon node \begin{DoxyReturn}{Returns}
+the weapon node (based on whatever render engine you're using) getAmmo 
+
+u16 ammo -\/ the amount of ammo currently available 
+\end{DoxyReturn}
+\hypertarget{class_micro_f_p_s_1_1_weapon_a4ba6521f0ebfc3e1809ae67010c0534c}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!getClip@{getClip}}
+\index{getClip@{getClip}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{getClip}]{\setlength{\rightskip}{0pt plus 5cm}virtual u16 MicroFPS::Weapon::getClip (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_a4ba6521f0ebfc3e1809ae67010c0534c}
+getClip \begin{DoxyReturn}{Returns}
+u16 ammo -\/ return the amount of ammo in the current clip 
+\end{DoxyReturn}
+\hypertarget{class_micro_f_p_s_1_1_weapon_ad619ae94202880032139eb0cd4134e70}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!getDamage@{getDamage}}
+\index{getDamage@{getDamage}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{getDamage}]{\setlength{\rightskip}{0pt plus 5cm}virtual s16 MicroFPS::Weapon::getDamage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_ad619ae94202880032139eb0cd4134e70}
+getDamage \hyperlink{class_micro_f_p_s_1_1_weapon}{Weapon} damage \begin{DoxyReturn}{Returns}
+s16 damage -\/ amount of damage done 
+\end{DoxyReturn}
+\hypertarget{class_micro_f_p_s_1_1_weapon_a415e5fd2b9831fb91a6ab7371a1f3094}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!getEffects@{getEffects}}
+\index{getEffects@{getEffects}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{getEffects}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Effects}$\ast$ MicroFPS::Weapon::getEffects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_a415e5fd2b9831fb91a6ab7371a1f3094}
+getEffects \hyperlink{class_micro_f_p_s_1_1_weapon}{Weapon} effects pointer \begin{DoxyReturn}{Returns}
+Effects$\ast$ 
+\end{DoxyReturn}
+\hypertarget{class_micro_f_p_s_1_1_weapon_a8bbe1026f022a0c179353d25f45a518f}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!getMaxCapacity@{getMaxCapacity}}
+\index{getMaxCapacity@{getMaxCapacity}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{getMaxCapacity}]{\setlength{\rightskip}{0pt plus 5cm}virtual u16 MicroFPS::Weapon::getMaxCapacity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_a8bbe1026f022a0c179353d25f45a518f}
+getMaxCapacity Weapon's max capacity \begin{DoxyReturn}{Returns}
+u16 max capacity of weapon 
+\end{DoxyReturn}
+\hypertarget{class_micro_f_p_s_1_1_weapon_a299e525125412e9a4c7a60d4fea3e33b}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!getMaxClipSize@{getMaxClipSize}}
+\index{getMaxClipSize@{getMaxClipSize}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{getMaxClipSize}]{\setlength{\rightskip}{0pt plus 5cm}virtual u16 MicroFPS::Weapon::getMaxClipSize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_a299e525125412e9a4c7a60d4fea3e33b}
+getMaxClipSize How many shots to reload? \begin{DoxyReturn}{Returns}
+u16 max capacity of a clip 
+\end{DoxyReturn}
+\hypertarget{class_micro_f_p_s_1_1_weapon_a7dfc1a991ce1433aea63767b544ae2c4}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!getWeaponName@{getWeaponName}}
+\index{getWeaponName@{getWeaponName}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{getWeaponName}]{\setlength{\rightskip}{0pt plus 5cm}virtual stringw MicroFPS::Weapon::getWeaponName (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_a7dfc1a991ce1433aea63767b544ae2c4}
+getWeaponName Name of the \hyperlink{class_micro_f_p_s_1_1_weapon}{Weapon} \begin{DoxyReturn}{Returns}
+stringw -\/ weapon name 
+\end{DoxyReturn}
+\hypertarget{class_micro_f_p_s_1_1_weapon_acc61092a5e3f0d51fcab4320fc2553f6}{
+\index{MicroFPS::Weapon@{MicroFPS::Weapon}!setAmmo@{setAmmo}}
+\index{setAmmo@{setAmmo}!MicroFPS::Weapon@{MicroFPS::Weapon}}
+\subsubsection[{setAmmo}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Weapon::setAmmo (
+\begin{DoxyParamCaption}
+\item[{u16}]{ammo}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/da6/class_micro_f_p_s_1_1_weapon_acc61092a5e3f0d51fcab4320fc2553f6}
+setAmmo Of course, you don't need to always do math ;) \begin{DoxyReturn}{Returns}
+u16 ammo -\/ where to set ammo 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Player/Weapon.h\end{DoxyCompactItemize}

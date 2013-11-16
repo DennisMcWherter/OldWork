@@ -1,0 +1,170 @@
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table}{
+\section{MicroFPS::core::HashTable$<$ K, T $>$ Class Template Reference}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table}\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+}
+
+
+{\ttfamily \#include $<$HashTable.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_a1162a7e515a6288a3fd49a05299fcb4e}{HashTable} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_a48f4851b2b119194052a1f93e56180ea}{$\sim$HashTable} ()
+\item 
+virtual const T \& \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_a94bc5dc4e8353fd39d51465d83828a3b}{operator\mbox{[}$\,$\mbox{]}} (const K \&key) const =0
+\item 
+virtual const T \& \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_ad96f5cbe755cd2d8b4e8633b969489dd}{find} (const K \&key) const =0
+\item 
+virtual u32 \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_a3f21c54a6c75a9f16499be982e3f3c86}{getSize} () const =0
+\item 
+virtual bool \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_a11aff99da06bd89ec3c9015d7ddec438}{keyExists} (const K \&key) const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_af6e9b65e34cd636d84ac99f9586a19de}{insert} (const K \&key, const T \&value)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_a82d9e9b8be6b29c97444a07793ed3580}{remove} (const K \&key)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_a39b2a430fdc7b6b9ea9b10b8763d2d0d}{clear} ()=0
+\item 
+virtual bool \hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table_a6053bd903038d231771cbaee16247e99}{empty} () const =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class K, class T$>$class MicroFPS::core::HashTable$<$ K, T $>$}
+
+\hyperlink{class_micro_f_p_s_1_1core_1_1_hash_table}{HashTable} Abstract base class for hash tables 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_a1162a7e515a6288a3fd49a05299fcb4e}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!HashTable@{HashTable}}
+\index{HashTable@{HashTable}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{HashTable}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ {\bf MicroFPS::core::HashTable}$<$ K, T $>$::{\bf HashTable} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_a1162a7e515a6288a3fd49a05299fcb4e}
+Constructor \hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_a48f4851b2b119194052a1f93e56180ea}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!$\sim$HashTable@{$\sim$HashTable}}
+\index{$\sim$HashTable@{$\sim$HashTable}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{$\sim$HashTable}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual {\bf MicroFPS::core::HashTable}$<$ K, T $>$::$\sim${\bf HashTable} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_a48f4851b2b119194052a1f93e56180ea}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_a39b2a430fdc7b6b9ea9b10b8763d2d0d}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!clear@{clear}}
+\index{clear@{clear}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual void {\bf MicroFPS::core::HashTable}$<$ K, T $>$::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_a39b2a430fdc7b6b9ea9b10b8763d2d0d}
+clear Clear the map 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_array_ac2fc2f354da317a94fb00c06c263470c}{MicroFPS::core::Array$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_ac2fc2f354da317a94fb00c06c263470c}{MicroFPS::core::Array$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_ac2fc2f354da317a94fb00c06c263470c}{MicroFPS::core::Array$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_array_ac2fc2f354da317a94fb00c06c263470c}{MicroFPS::core::Array$<$ Weapon $\ast$ $>$}.
+
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_a6053bd903038d231771cbaee16247e99}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!empty@{empty}}
+\index{empty@{empty}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual bool {\bf MicroFPS::core::HashTable}$<$ K, T $>$::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_a6053bd903038d231771cbaee16247e99}
+empty Check if is empty 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_array_abaf4b55d44550ed2e087e5ba80a84841}{MicroFPS::core::Array$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_abaf4b55d44550ed2e087e5ba80a84841}{MicroFPS::core::Array$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_abaf4b55d44550ed2e087e5ba80a84841}{MicroFPS::core::Array$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_array_abaf4b55d44550ed2e087e5ba80a84841}{MicroFPS::core::Array$<$ Weapon $\ast$ $>$}.
+
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_ad96f5cbe755cd2d8b4e8633b969489dd}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!find@{find}}
+\index{find@{find}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{find}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual const T\& {\bf MicroFPS::core::HashTable}$<$ K, T $>$::find (
+\begin{DoxyParamCaption}
+\item[{const K \&}]{key}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_ad96f5cbe755cd2d8b4e8633b969489dd}
+find Access elements 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a4965e35b100332b8ee2c165437a050c0}{MicroFPS::core::Array$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a4965e35b100332b8ee2c165437a050c0}{MicroFPS::core::Array$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a4965e35b100332b8ee2c165437a050c0}{MicroFPS::core::Array$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a4965e35b100332b8ee2c165437a050c0}{MicroFPS::core::Array$<$ Weapon $\ast$ $>$}.
+
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_a3f21c54a6c75a9f16499be982e3f3c86}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!getSize@{getSize}}
+\index{getSize@{getSize}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{getSize}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual u32 {\bf MicroFPS::core::HashTable}$<$ K, T $>$::getSize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_a3f21c54a6c75a9f16499be982e3f3c86}
+getSize get number of elements 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a7baa1f516b3e803e2d3b2c0c53c2d0a1}{MicroFPS::core::Array$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a7baa1f516b3e803e2d3b2c0c53c2d0a1}{MicroFPS::core::Array$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a7baa1f516b3e803e2d3b2c0c53c2d0a1}{MicroFPS::core::Array$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a7baa1f516b3e803e2d3b2c0c53c2d0a1}{MicroFPS::core::Array$<$ Weapon $\ast$ $>$}.
+
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_af6e9b65e34cd636d84ac99f9586a19de}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!insert@{insert}}
+\index{insert@{insert}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual void {\bf MicroFPS::core::HashTable}$<$ K, T $>$::insert (
+\begin{DoxyParamCaption}
+\item[{const K \&}]{key, }
+\item[{const T \&}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_af6e9b65e34cd636d84ac99f9586a19de}
+insert Add element to map 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a810b431d29f7a7e723fa8ee7d5195056}{MicroFPS::core::Array$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a810b431d29f7a7e723fa8ee7d5195056}{MicroFPS::core::Array$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a810b431d29f7a7e723fa8ee7d5195056}{MicroFPS::core::Array$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a810b431d29f7a7e723fa8ee7d5195056}{MicroFPS::core::Array$<$ Weapon $\ast$ $>$}.
+
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_a11aff99da06bd89ec3c9015d7ddec438}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!keyExists@{keyExists}}
+\index{keyExists@{keyExists}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{keyExists}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual bool {\bf MicroFPS::core::HashTable}$<$ K, T $>$::keyExists (
+\begin{DoxyParamCaption}
+\item[{const K \&}]{key}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_a11aff99da06bd89ec3c9015d7ddec438}
+keyExists Check if key exists 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_array_ae3af879d40c9cd938490ef4482dcd906}{MicroFPS::core::Array$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_ae3af879d40c9cd938490ef4482dcd906}{MicroFPS::core::Array$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_ae3af879d40c9cd938490ef4482dcd906}{MicroFPS::core::Array$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_array_ae3af879d40c9cd938490ef4482dcd906}{MicroFPS::core::Array$<$ Weapon $\ast$ $>$}.
+
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_a94bc5dc4e8353fd39d51465d83828a3b}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual const T\& {\bf MicroFPS::core::HashTable}$<$ K, T $>$::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const K \&}]{key}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_a94bc5dc4e8353fd39d51465d83828a3b}
+operator\mbox{[}\mbox{]} Access elements 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a1838d4ce976773291ea69f6109d2ee95}{MicroFPS::core::Array$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a1838d4ce976773291ea69f6109d2ee95}{MicroFPS::core::Array$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a1838d4ce976773291ea69f6109d2ee95}{MicroFPS::core::Array$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a1838d4ce976773291ea69f6109d2ee95}{MicroFPS::core::Array$<$ Weapon $\ast$ $>$}.
+
+\hypertarget{class_micro_f_p_s_1_1core_1_1_hash_table_a82d9e9b8be6b29c97444a07793ed3580}{
+\index{MicroFPS::core::HashTable@{MicroFPS::core::HashTable}!remove@{remove}}
+\index{remove@{remove}!MicroFPS::core::HashTable@{MicroFPS::core::HashTable}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class K, class T$>$ virtual void {\bf MicroFPS::core::HashTable}$<$ K, T $>$::remove (
+\begin{DoxyParamCaption}
+\item[{const K \&}]{key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d7/db3/class_micro_f_p_s_1_1core_1_1_hash_table_a82d9e9b8be6b29c97444a07793ed3580}
+remove Remove an element from table 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a9109e034d60452896a9dfca14aa666d9}{MicroFPS::core::Array$<$ T $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a9109e034d60452896a9dfca14aa666d9}{MicroFPS::core::Array$<$ GameState $\ast$ $>$}, \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a9109e034d60452896a9dfca14aa666d9}{MicroFPS::core::Array$<$ EventHandler $\ast$ $>$}, and \hyperlink{class_micro_f_p_s_1_1core_1_1_array_a9109e034d60452896a9dfca14aa666d9}{MicroFPS::core::Array$<$ Weapon $\ast$ $>$}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Core/HashTable.h\end{DoxyCompactItemize}

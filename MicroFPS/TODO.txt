@@ -1,0 +1,12 @@
+21 June 2011:
+	* Finish basic GUI implementation (Complete 22 June 2011)
+	* Implement Physics
+	* Create tech demo
+
+22 June 2011:
+	* Make GUI go through Game Manager (Complete 23 June 2011)
+
+23 June 2011:
+	* Implement Audio engine
+	* Implement AI Engine
+	* Implement EventHandler engine (Complete 23 June 2011)

@@ -1,0 +1,5 @@
+MicroFPS 0.1.0 Dependencies
+===========================
+Irrlicht Rendering Engine
+Bullet Physics Engine
+CEGUI (If GUI enabled)

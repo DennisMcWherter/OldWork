@@ -1,0 +1,173 @@
+\hypertarget{class_micro_f_p_s_1_1_game_manager}{
+\section{MicroFPS::GameManager Class Reference}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager}\index{MicroFPS::GameManager@{MicroFPS::GameManager}}
+}
+
+
+{\ttfamily \#include $<$GameManager.h$>$}
+
+Inheritance diagram for MicroFPS::GameManager:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d8/d88/class_micro_f_p_s_1_1_game_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_game_manager_ac51554cf7901660c82e9e706121e6711}{GameManager} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_game_manager_aade03d5fb5ef9c9474188fbb9a0a033a}{$\sim$GameManager} ()
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_game_manager_afce01403245a9266642fb609c3dd18de}{start} ()=0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_render_manager}{RenderManager} $\ast$ \hyperlink{class_micro_f_p_s_1_1_game_manager_ac8792976d8d44730864afb866f7ce7cc}{getRenderManager} () const =0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_state_manager}{StateManager} $\ast$ \hyperlink{class_micro_f_p_s_1_1_game_manager_ac8e2bed71b241e8e0463bdeb9175d844}{getStateManager} () const =0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_physics_manager}{PhysicsManager} $\ast$ \hyperlink{class_micro_f_p_s_1_1_game_manager_a5f7ba66d79351b6a3ce66c818ed73433}{getPhysicsManager} () const =0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_player_manager}{PlayerManager} $\ast$ \hyperlink{class_micro_f_p_s_1_1_game_manager_a3288e396a727930d38c037be168e7d38}{getPlayerManager} () const =0
+\item 
+virtual GUIManager $\ast$ \hyperlink{class_micro_f_p_s_1_1_game_manager_a5b7f578a90a5f92611f9072082414b1f}{getGUIManager} () const =0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_event_manager}{EventManager} $\ast$ \hyperlink{class_micro_f_p_s_1_1_game_manager_a74fa3acc28f45af0742c8a85cd160bf5}{getEventManager} () const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_game_manager_a8f221cc845ea6e43dfa23d7f4c90cb4c}{destroy} ()=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_micro_f_p_s_1_1_game_manager}{GameManager} The glue to the entire system 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_game_manager_ac51554cf7901660c82e9e706121e6711}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!GameManager@{GameManager}}
+\index{GameManager@{GameManager}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{GameManager}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::GameManager::GameManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_ac51554cf7901660c82e9e706121e6711}
+\hyperlink{class_micro_f_p_s_1_1_game_manager_ac51554cf7901660c82e9e706121e6711}{GameManager()} General default constructor \hypertarget{class_micro_f_p_s_1_1_game_manager_aade03d5fb5ef9c9474188fbb9a0a033a}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!$\sim$GameManager@{$\sim$GameManager}}
+\index{$\sim$GameManager@{$\sim$GameManager}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{$\sim$GameManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::GameManager::$\sim$GameManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_aade03d5fb5ef9c9474188fbb9a0a033a}
+\hyperlink{class_micro_f_p_s_1_1_game_manager_aade03d5fb5ef9c9474188fbb9a0a033a}{$\sim$GameManager()} Virtual destructor we're done 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_game_manager_a8f221cc845ea6e43dfa23d7f4c90cb4c}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!destroy@{destroy}}
+\index{destroy@{destroy}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{destroy}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::GameManager::destroy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_a8f221cc845ea6e43dfa23d7f4c90cb4c}
+destroy Destroy the current object 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_game_manager_impl_a223a37fd3fed8a931386a3aa0988fd99}{MicroFPS::GameManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_game_manager_a74fa3acc28f45af0742c8a85cd160bf5}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!getEventManager@{getEventManager}}
+\index{getEventManager@{getEventManager}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{getEventManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf EventManager}$\ast$ MicroFPS::GameManager::getEventManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_a74fa3acc28f45af0742c8a85cd160bf5}
+getEventManager get the event manager for event handlers 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_game_manager_impl_a2dfeba3eead7226f599326f4dfedf768}{MicroFPS::GameManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_game_manager_a5b7f578a90a5f92611f9072082414b1f}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!getGUIManager@{getGUIManager}}
+\index{getGUIManager@{getGUIManager}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{getGUIManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual GUIManager$\ast$ MicroFPS::GameManager::getGUIManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_a5b7f578a90a5f92611f9072082414b1f}
+getGUIManager 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_game_manager_impl_afaf6996bfa794f1d349db1c3a6e35682}{MicroFPS::GameManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_game_manager_a5f7ba66d79351b6a3ce66c818ed73433}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!getPhysicsManager@{getPhysicsManager}}
+\index{getPhysicsManager@{getPhysicsManager}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{getPhysicsManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf PhysicsManager}$\ast$ MicroFPS::GameManager::getPhysicsManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_a5f7ba66d79351b6a3ce66c818ed73433}
+getPhysicsManager Retrieve physics manager 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_game_manager_impl_af22a0a2d254220f1be1b0a92963d641e}{MicroFPS::GameManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_game_manager_a3288e396a727930d38c037be168e7d38}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!getPlayerManager@{getPlayerManager}}
+\index{getPlayerManager@{getPlayerManager}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{getPlayerManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf PlayerManager}$\ast$ MicroFPS::GameManager::getPlayerManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_a3288e396a727930d38c037be168e7d38}
+getPlayerManager Retrieve player manager 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_game_manager_impl_a7ae26cd86f10297b53afc17c46d8124f}{MicroFPS::GameManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_game_manager_ac8792976d8d44730864afb866f7ce7cc}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!getRenderManager@{getRenderManager}}
+\index{getRenderManager@{getRenderManager}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{getRenderManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf RenderManager}$\ast$ MicroFPS::GameManager::getRenderManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_ac8792976d8d44730864afb866f7ce7cc}
+\hyperlink{class_micro_f_p_s_1_1_game_manager_ac8792976d8d44730864afb866f7ce7cc}{getRenderManager()} Get the render manager 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_game_manager_impl_a8d6c455d801f35c335c6648ecc2adb66}{MicroFPS::GameManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_game_manager_ac8e2bed71b241e8e0463bdeb9175d844}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!getStateManager@{getStateManager}}
+\index{getStateManager@{getStateManager}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{getStateManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf StateManager}$\ast$ MicroFPS::GameManager::getStateManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_ac8e2bed71b241e8e0463bdeb9175d844}
+\hyperlink{class_micro_f_p_s_1_1_game_manager_ac8e2bed71b241e8e0463bdeb9175d844}{getStateManager()} Get the state manager 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_game_manager_impl_aeb67fb518616ef72d0f7b252d15908c4}{MicroFPS::GameManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_game_manager_afce01403245a9266642fb609c3dd18de}{
+\index{MicroFPS::GameManager@{MicroFPS::GameManager}!start@{start}}
+\index{start@{start}!MicroFPS::GameManager@{MicroFPS::GameManager}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::GameManager::start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d88/class_micro_f_p_s_1_1_game_manager_afce01403245a9266642fb609c3dd18de}
+start The function which will initialize the game loop 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_game_manager_impl_a408a6e2b5f22501b662cfd65c6437135}{MicroFPS::GameManagerImpl}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Managers/GameManager.h\end{DoxyCompactItemize}

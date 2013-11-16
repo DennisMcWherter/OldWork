@@ -1,0 +1,106 @@
+\hypertarget{class_micro_f_p_s_1_1_weapon_manager}{
+\section{MicroFPS::WeaponManager Class Reference}
+\label{d2/d47/class_micro_f_p_s_1_1_weapon_manager}\index{MicroFPS::WeaponManager@{MicroFPS::WeaponManager}}
+}
+
+
+{\ttfamily \#include $<$WeaponManager.h$>$}
+
+Inheritance diagram for MicroFPS::WeaponManager:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/d47/class_micro_f_p_s_1_1_weapon_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_weapon_manager_a1e72b3730d1bda32c1986f16a7e49bd6}{WeaponManager} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_weapon_manager_a9cc12cb51ef647b54a4b6f51a93171cd}{$\sim$WeaponManager} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_weapon}{Weapon} $\ast$ \hyperlink{class_micro_f_p_s_1_1_weapon_manager_ad868c1e3e98106d509e1478d62df732f}{getCurrentWeapon} () const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_manager_aa92823b02b2b20e7b6a3ed547296b013}{dropCurrentWeapon} ()=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_manager_a7381fdae24f720794410c7ba777fc1d2}{setCurrentWeapon} (std::string id)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_micro_f_p_s_1_1_weapon_manager}{WeaponManager} Abstract Base class for \hyperlink{class_micro_f_p_s_1_1_weapon_manager}{WeaponManager} 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_weapon_manager_a1e72b3730d1bda32c1986f16a7e49bd6}{
+\index{MicroFPS::WeaponManager@{MicroFPS::WeaponManager}!WeaponManager@{WeaponManager}}
+\index{WeaponManager@{WeaponManager}!MicroFPS::WeaponManager@{MicroFPS::WeaponManager}}
+\subsubsection[{WeaponManager}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::WeaponManager::WeaponManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{d2/d47/class_micro_f_p_s_1_1_weapon_manager_a1e72b3730d1bda32c1986f16a7e49bd6}
+Constructor \hypertarget{class_micro_f_p_s_1_1_weapon_manager_a9cc12cb51ef647b54a4b6f51a93171cd}{
+\index{MicroFPS::WeaponManager@{MicroFPS::WeaponManager}!$\sim$WeaponManager@{$\sim$WeaponManager}}
+\index{$\sim$WeaponManager@{$\sim$WeaponManager}!MicroFPS::WeaponManager@{MicroFPS::WeaponManager}}
+\subsubsection[{$\sim$WeaponManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::WeaponManager::$\sim$WeaponManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{d2/d47/class_micro_f_p_s_1_1_weapon_manager_a9cc12cb51ef647b54a4b6f51a93171cd}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_weapon_manager_aa92823b02b2b20e7b6a3ed547296b013}{
+\index{MicroFPS::WeaponManager@{MicroFPS::WeaponManager}!dropCurrentWeapon@{dropCurrentWeapon}}
+\index{dropCurrentWeapon@{dropCurrentWeapon}!MicroFPS::WeaponManager@{MicroFPS::WeaponManager}}
+\subsubsection[{dropCurrentWeapon}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::WeaponManager::dropCurrentWeapon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/d47/class_micro_f_p_s_1_1_weapon_manager_aa92823b02b2b20e7b6a3ed547296b013}
+dropCurrentWeapon Get rid of the current weapon 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_weapon_manager_impl_a6f0fb8552dc933c281a2182224fa685b}{MicroFPS::WeaponManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_weapon_manager_ad868c1e3e98106d509e1478d62df732f}{
+\index{MicroFPS::WeaponManager@{MicroFPS::WeaponManager}!getCurrentWeapon@{getCurrentWeapon}}
+\index{getCurrentWeapon@{getCurrentWeapon}!MicroFPS::WeaponManager@{MicroFPS::WeaponManager}}
+\subsubsection[{getCurrentWeapon}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Weapon}$\ast$ MicroFPS::WeaponManager::getCurrentWeapon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/d47/class_micro_f_p_s_1_1_weapon_manager_ad868c1e3e98106d509e1478d62df732f}
+getCurrentWeapon \begin{DoxyReturn}{Returns}
+\hyperlink{class_micro_f_p_s_1_1_weapon}{Weapon} $\ast$ -\/ pointer to the current weapon 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_weapon_manager_impl_a3c8963d52953b5f4dd0d6bc676d41109}{MicroFPS::WeaponManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_weapon_manager_a7381fdae24f720794410c7ba777fc1d2}{
+\index{MicroFPS::WeaponManager@{MicroFPS::WeaponManager}!setCurrentWeapon@{setCurrentWeapon}}
+\index{setCurrentWeapon@{setCurrentWeapon}!MicroFPS::WeaponManager@{MicroFPS::WeaponManager}}
+\subsubsection[{setCurrentWeapon}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::WeaponManager::setCurrentWeapon (
+\begin{DoxyParamCaption}
+\item[{std::string}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/d47/class_micro_f_p_s_1_1_weapon_manager_a7381fdae24f720794410c7ba777fc1d2}
+setCurrentWeapon Change your weapon 
+\begin{DoxyParams}{Parameters}
+{\em u16} & -\/ weapon id in inventory \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_weapon_manager_impl_a1e1d757ee4ab07289dcfb6842b337c42}{MicroFPS::WeaponManagerImpl}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Managers/WeaponManager.h\end{DoxyCompactItemize}

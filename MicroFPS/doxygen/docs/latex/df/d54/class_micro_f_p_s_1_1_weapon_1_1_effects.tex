@@ -1,0 +1,113 @@
+\hypertarget{class_micro_f_p_s_1_1_weapon_1_1_effects}{
+\section{MicroFPS::Weapon::Effects Class Reference}
+\label{df/d54/class_micro_f_p_s_1_1_weapon_1_1_effects}\index{MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}}
+}
+
+
+{\ttfamily \#include $<$Weapon.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects_a07511011cd19c8919d20bdc7d6c48565}{Effects} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects_a55df57e8c918617e7d7b7c5630a3b9fd}{$\sim$Effects} ()
+\item 
+virtual std::pair$<$ u32, u32 $>$ \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects_af9402b6042248fa3d24cb3b0b6de067f}{getAnimation} (std::string name) const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects_ae06a99a067de9a4c0dedd4bef849e4ba}{getSound} () const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects_ad2e59cffebe9b426b9bf41e09ed34e9a}{addAnimation} (std::string, u32 start, u32 end)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects_ad34b86928f9dab3b0094566844fa2d9b}{addSound} ()=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects_a15c2a5e604b58301317946622c3e3c65}{shoot} ()=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+TODO: Add Functions for animations, sounds, etc. \hyperlink{class_micro_f_p_s_1_1_weapon_1_1_effects}{Effects} class 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_weapon_1_1_effects_a07511011cd19c8919d20bdc7d6c48565}{
+\index{MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}!Effects@{Effects}}
+\index{Effects@{Effects}!MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}}
+\subsubsection[{Effects}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::Weapon::Effects::Effects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{df/d54/class_micro_f_p_s_1_1_weapon_1_1_effects_a07511011cd19c8919d20bdc7d6c48565}
+Constructor \hypertarget{class_micro_f_p_s_1_1_weapon_1_1_effects_a55df57e8c918617e7d7b7c5630a3b9fd}{
+\index{MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}!$\sim$Effects@{$\sim$Effects}}
+\index{$\sim$Effects@{$\sim$Effects}!MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}}
+\subsubsection[{$\sim$Effects}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::Weapon::Effects::$\sim$Effects (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{df/d54/class_micro_f_p_s_1_1_weapon_1_1_effects_a55df57e8c918617e7d7b7c5630a3b9fd}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_weapon_1_1_effects_ad2e59cffebe9b426b9bf41e09ed34e9a}{
+\index{MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}!addAnimation@{addAnimation}}
+\index{addAnimation@{addAnimation}!MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}}
+\subsubsection[{addAnimation}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Weapon::Effects::addAnimation (
+\begin{DoxyParamCaption}
+\item[{std::string}]{, }
+\item[{u32}]{start, }
+\item[{u32}]{end}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{df/d54/class_micro_f_p_s_1_1_weapon_1_1_effects_ad2e59cffebe9b426b9bf41e09ed34e9a}
+addAnimation 
+\begin{DoxyParams}{Parameters}
+{\em std::string} & name \\
+\hline
+{\em u32} & start frame \\
+\hline
+{\em u32} & end \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_micro_f_p_s_1_1_weapon_1_1_effects_ad34b86928f9dab3b0094566844fa2d9b}{
+\index{MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}!addSound@{addSound}}
+\index{addSound@{addSound}!MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}}
+\subsubsection[{addSound}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Weapon::Effects::addSound (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{df/d54/class_micro_f_p_s_1_1_weapon_1_1_effects_ad34b86928f9dab3b0094566844fa2d9b}
+addSound -\/-\/ Not implemented yet; need to integrate audio engine \hypertarget{class_micro_f_p_s_1_1_weapon_1_1_effects_af9402b6042248fa3d24cb3b0b6de067f}{
+\index{MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}!getAnimation@{getAnimation}}
+\index{getAnimation@{getAnimation}!MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}}
+\subsubsection[{getAnimation}]{\setlength{\rightskip}{0pt plus 5cm}virtual std::pair$<$u32,u32$>$ MicroFPS::Weapon::Effects::getAnimation (
+\begin{DoxyParamCaption}
+\item[{std::string}]{name}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{df/d54/class_micro_f_p_s_1_1_weapon_1_1_effects_af9402b6042248fa3d24cb3b0b6de067f}
+getAnimation Retrieves an std::pair$<$u32,u32$>$ with key frames \hypertarget{class_micro_f_p_s_1_1_weapon_1_1_effects_ae06a99a067de9a4c0dedd4bef849e4ba}{
+\index{MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}!getSound@{getSound}}
+\index{getSound@{getSound}!MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}}
+\subsubsection[{getSound}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Weapon::Effects::getSound (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{df/d54/class_micro_f_p_s_1_1_weapon_1_1_effects_ae06a99a067de9a4c0dedd4bef849e4ba}
+getSound -\/-\/ Not yet implemented; need to integrate audio engine \hypertarget{class_micro_f_p_s_1_1_weapon_1_1_effects_a15c2a5e604b58301317946622c3e3c65}{
+\index{MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}!shoot@{shoot}}
+\index{shoot@{shoot}!MicroFPS::Weapon::Effects@{MicroFPS::Weapon::Effects}}
+\subsubsection[{shoot}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Weapon::Effects::shoot (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{df/d54/class_micro_f_p_s_1_1_weapon_1_1_effects_a15c2a5e604b58301317946622c3e3c65}
+shoot 
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Player/Weapon.h\end{DoxyCompactItemize}

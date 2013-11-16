@@ -1,0 +1,95 @@
+\hypertarget{class_micro_f_p_s_1_1_game_state}{
+\section{MicroFPS::GameState Class Reference}
+\label{df/dc6/class_micro_f_p_s_1_1_game_state}\index{MicroFPS::GameState@{MicroFPS::GameState}}
+}
+
+
+{\ttfamily \#include $<$StateManager.h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_micro_f_p_s_1_1_game_state_a2473115955f3009dae963b45f6a45ef3}{STATE\_\-TYPE} \{ {\bfseries LEVEL}, 
+{\bfseries MENU}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_game_state_a9ff190c74054ce2a3f5f5dd82601fc42}{GameState} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_game_state_ac7ed58f354a2a1e5d1942f5d361a9dab}{$\sim$GameState} ()
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_game_state_ab0e7cbccd49d6c0be93ba6ad0edb3436}{operator()} ()=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_game_state_a45db2d9ce96ac103465f798145f86927}{change} ()=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_game_state_a3e8da39e3c244a903a4e26252f9856a6}{leave} ()=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_micro_f_p_s_1_1_game_state}{GameState} Determine what a \hyperlink{class_micro_f_p_s_1_1_game_state}{GameState} consists of 
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{class_micro_f_p_s_1_1_game_state_a2473115955f3009dae963b45f6a45ef3}{
+\index{MicroFPS::GameState@{MicroFPS::GameState}!STATE\_\-TYPE@{STATE\_\-TYPE}}
+\index{STATE\_\-TYPE@{STATE\_\-TYPE}!MicroFPS::GameState@{MicroFPS::GameState}}
+\subsubsection[{STATE\_\-TYPE}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf MicroFPS::GameState::STATE\_\-TYPE}}}
+\label{df/dc6/class_micro_f_p_s_1_1_game_state_a2473115955f3009dae963b45f6a45ef3}
+STATE\_\-TYPE ENUM to determine type of state 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_game_state_a9ff190c74054ce2a3f5f5dd82601fc42}{
+\index{MicroFPS::GameState@{MicroFPS::GameState}!GameState@{GameState}}
+\index{GameState@{GameState}!MicroFPS::GameState@{MicroFPS::GameState}}
+\subsubsection[{GameState}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::GameState::GameState (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{df/dc6/class_micro_f_p_s_1_1_game_state_a9ff190c74054ce2a3f5f5dd82601fc42}
+Constructor \hypertarget{class_micro_f_p_s_1_1_game_state_ac7ed58f354a2a1e5d1942f5d361a9dab}{
+\index{MicroFPS::GameState@{MicroFPS::GameState}!$\sim$GameState@{$\sim$GameState}}
+\index{$\sim$GameState@{$\sim$GameState}!MicroFPS::GameState@{MicroFPS::GameState}}
+\subsubsection[{$\sim$GameState}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::GameState::$\sim$GameState (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{df/dc6/class_micro_f_p_s_1_1_game_state_ac7ed58f354a2a1e5d1942f5d361a9dab}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_game_state_a45db2d9ce96ac103465f798145f86927}{
+\index{MicroFPS::GameState@{MicroFPS::GameState}!change@{change}}
+\index{change@{change}!MicroFPS::GameState@{MicroFPS::GameState}}
+\subsubsection[{change}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::GameState::change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{df/dc6/class_micro_f_p_s_1_1_game_state_a45db2d9ce96ac103465f798145f86927}
+\hyperlink{class_micro_f_p_s_1_1_game_state_a45db2d9ce96ac103465f798145f86927}{change()} Void function to simply prepare the state to be viewed \hypertarget{class_micro_f_p_s_1_1_game_state_a3e8da39e3c244a903a4e26252f9856a6}{
+\index{MicroFPS::GameState@{MicroFPS::GameState}!leave@{leave}}
+\index{leave@{leave}!MicroFPS::GameState@{MicroFPS::GameState}}
+\subsubsection[{leave}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::GameState::leave (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{df/dc6/class_micro_f_p_s_1_1_game_state_a3e8da39e3c244a903a4e26252f9856a6}
+\hyperlink{class_micro_f_p_s_1_1_game_state_a3e8da39e3c244a903a4e26252f9856a6}{leave()} Prepare a scene to be left \hypertarget{class_micro_f_p_s_1_1_game_state_ab0e7cbccd49d6c0be93ba6ad0edb3436}{
+\index{MicroFPS::GameState@{MicroFPS::GameState}!operator()@{operator()}}
+\index{operator()@{operator()}!MicroFPS::GameState@{MicroFPS::GameState}}
+\subsubsection[{operator()}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::GameState::operator() (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{df/dc6/class_micro_f_p_s_1_1_game_state_ab0e7cbccd49d6c0be93ba6ad0edb3436}
+operator() Functor to Determine what to add (if anything) to the predefined game loop 
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Managers/StateManager.h\end{DoxyCompactItemize}

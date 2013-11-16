@@ -1,0 +1,113 @@
+\hypertarget{class_micro_f_p_s_1_1_state_manager}{
+\section{MicroFPS::StateManager Class Reference}
+\label{d2/dbd/class_micro_f_p_s_1_1_state_manager}\index{MicroFPS::StateManager@{MicroFPS::StateManager}}
+}
+
+
+{\ttfamily \#include $<$StateManager.h$>$}
+
+Inheritance diagram for MicroFPS::StateManager:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/dbd/class_micro_f_p_s_1_1_state_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_state_manager_a05450ac05314e7f0ca504c814809ba32}{StateManager} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_state_manager_ab07b0637b6730764afd561a9cae29b02}{$\sim$StateManager} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_game_state}{GameState} $\ast$ \hyperlink{class_micro_f_p_s_1_1_state_manager_ac7399e6e56923dd9b45e3ae1169b55f7}{getCurrentState} () const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_state_manager_af502f97754c3393e570daf5a4401d203}{setCurrentState} (u8 state)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_state_manager_a535cadf882ebf37415d9bcbb7da3ed1a}{addState} (\hyperlink{class_micro_f_p_s_1_1_game_state}{GameState} $\ast$state)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_state_manager_a66e7e2d3e4cd83feec9afff7e9c157a0}{removeState} (u8 state)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_micro_f_p_s_1_1_state_manager}{StateManager} Abstract class for state management 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_state_manager_a05450ac05314e7f0ca504c814809ba32}{
+\index{MicroFPS::StateManager@{MicroFPS::StateManager}!StateManager@{StateManager}}
+\index{StateManager@{StateManager}!MicroFPS::StateManager@{MicroFPS::StateManager}}
+\subsubsection[{StateManager}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::StateManager::StateManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{d2/dbd/class_micro_f_p_s_1_1_state_manager_a05450ac05314e7f0ca504c814809ba32}
+Constructor \hypertarget{class_micro_f_p_s_1_1_state_manager_ab07b0637b6730764afd561a9cae29b02}{
+\index{MicroFPS::StateManager@{MicroFPS::StateManager}!$\sim$StateManager@{$\sim$StateManager}}
+\index{$\sim$StateManager@{$\sim$StateManager}!MicroFPS::StateManager@{MicroFPS::StateManager}}
+\subsubsection[{$\sim$StateManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::StateManager::$\sim$StateManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{d2/dbd/class_micro_f_p_s_1_1_state_manager_ab07b0637b6730764afd561a9cae29b02}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_state_manager_a535cadf882ebf37415d9bcbb7da3ed1a}{
+\index{MicroFPS::StateManager@{MicroFPS::StateManager}!addState@{addState}}
+\index{addState@{addState}!MicroFPS::StateManager@{MicroFPS::StateManager}}
+\subsubsection[{addState}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::StateManager::addState (
+\begin{DoxyParamCaption}
+\item[{{\bf GameState} $\ast$}]{state}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/dbd/class_micro_f_p_s_1_1_state_manager_a535cadf882ebf37415d9bcbb7da3ed1a}
+addState Add a new state to the state manager 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_state_manager_impl_ae65f3dc55a97a7f19dbb32248fa92dfb}{MicroFPS::StateManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_state_manager_ac7399e6e56923dd9b45e3ae1169b55f7}{
+\index{MicroFPS::StateManager@{MicroFPS::StateManager}!getCurrentState@{getCurrentState}}
+\index{getCurrentState@{getCurrentState}!MicroFPS::StateManager@{MicroFPS::StateManager}}
+\subsubsection[{getCurrentState}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf GameState}$\ast$ MicroFPS::StateManager::getCurrentState (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/dbd/class_micro_f_p_s_1_1_state_manager_ac7399e6e56923dd9b45e3ae1169b55f7}
+getCurrentState Get the current game state 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_state_manager_impl_aed21558f8d76cd3dce1a9fc5f76ea3c8}{MicroFPS::StateManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_state_manager_a66e7e2d3e4cd83feec9afff7e9c157a0}{
+\index{MicroFPS::StateManager@{MicroFPS::StateManager}!removeState@{removeState}}
+\index{removeState@{removeState}!MicroFPS::StateManager@{MicroFPS::StateManager}}
+\subsubsection[{removeState}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::StateManager::removeState (
+\begin{DoxyParamCaption}
+\item[{u8}]{state}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/dbd/class_micro_f_p_s_1_1_state_manager_a66e7e2d3e4cd83feec9afff7e9c157a0}
+removeState Remove a particular state from the state manager 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_state_manager_impl_a0ced4d02b3985b4573d289317e9ebcc4}{MicroFPS::StateManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_state_manager_af502f97754c3393e570daf5a4401d203}{
+\index{MicroFPS::StateManager@{MicroFPS::StateManager}!setCurrentState@{setCurrentState}}
+\index{setCurrentState@{setCurrentState}!MicroFPS::StateManager@{MicroFPS::StateManager}}
+\subsubsection[{setCurrentState}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::StateManager::setCurrentState (
+\begin{DoxyParamCaption}
+\item[{u8}]{state}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d2/dbd/class_micro_f_p_s_1_1_state_manager_af502f97754c3393e570daf5a4401d203}
+setCurrentState Change the game state 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_state_manager_impl_a41804476cf431962fdc37d94a7bdb019}{MicroFPS::StateManagerImpl}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Managers/StateManager.h\end{DoxyCompactItemize}

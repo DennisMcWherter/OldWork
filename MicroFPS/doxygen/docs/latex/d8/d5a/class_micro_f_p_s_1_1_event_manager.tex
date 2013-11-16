@@ -1,0 +1,114 @@
+\hypertarget{class_micro_f_p_s_1_1_event_manager}{
+\section{MicroFPS::EventManager Class Reference}
+\label{d8/d5a/class_micro_f_p_s_1_1_event_manager}\index{MicroFPS::EventManager@{MicroFPS::EventManager}}
+}
+
+
+{\ttfamily \#include $<$EventManager.h$>$}
+
+Inheritance diagram for MicroFPS::EventManager:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d8/d5a/class_micro_f_p_s_1_1_event_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_event_manager_a02ee5e87931bb22698001afbe0d918a5}{EventManager} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_event_manager_ac361f75603b9b9df15ad67411750bca3}{$\sim$EventManager} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_event_handler}{EventHandler} $\ast$ \hyperlink{class_micro_f_p_s_1_1_event_manager_ad690afd2f2f8f178f9bba29a85613949}{getHandler} (const std::string \&name) const =0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_event_handler}{EventHandler} $\ast$ \hyperlink{class_micro_f_p_s_1_1_event_manager_aa27487e18d3cc6480a9efad513d79996}{addHandler} (const std::string \&name, \hyperlink{class_micro_f_p_s_1_1_event_handler}{EventHandler} $\ast$handler)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_event_manager_ac575b16e0c608ffb5fcde9e861b4c876}{removeHandler} (const std::string \&name)=0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_event_handler}{EventHandler} $\ast$ \hyperlink{class_micro_f_p_s_1_1_event_manager_ac9bc6edff543d37c14181b7cb30d653e}{getGenericHandler} () const =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_micro_f_p_s_1_1_event_manager}{EventManager} Base class 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_event_manager_a02ee5e87931bb22698001afbe0d918a5}{
+\index{MicroFPS::EventManager@{MicroFPS::EventManager}!EventManager@{EventManager}}
+\index{EventManager@{EventManager}!MicroFPS::EventManager@{MicroFPS::EventManager}}
+\subsubsection[{EventManager}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::EventManager::EventManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{d8/d5a/class_micro_f_p_s_1_1_event_manager_a02ee5e87931bb22698001afbe0d918a5}
+Constructor \hypertarget{class_micro_f_p_s_1_1_event_manager_ac361f75603b9b9df15ad67411750bca3}{
+\index{MicroFPS::EventManager@{MicroFPS::EventManager}!$\sim$EventManager@{$\sim$EventManager}}
+\index{$\sim$EventManager@{$\sim$EventManager}!MicroFPS::EventManager@{MicroFPS::EventManager}}
+\subsubsection[{$\sim$EventManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::EventManager::$\sim$EventManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{d8/d5a/class_micro_f_p_s_1_1_event_manager_ac361f75603b9b9df15ad67411750bca3}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_event_manager_aa27487e18d3cc6480a9efad513d79996}{
+\index{MicroFPS::EventManager@{MicroFPS::EventManager}!addHandler@{addHandler}}
+\index{addHandler@{addHandler}!MicroFPS::EventManager@{MicroFPS::EventManager}}
+\subsubsection[{addHandler}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf EventHandler}$\ast$ MicroFPS::EventManager::addHandler (
+\begin{DoxyParamCaption}
+\item[{const std::string \&}]{name, }
+\item[{{\bf EventHandler} $\ast$}]{handler}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d5a/class_micro_f_p_s_1_1_event_manager_aa27487e18d3cc6480a9efad513d79996}
+addHandler Add a handler 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_event_manager_impl_a020c4f3d3ef7f882dd810dcefd3a3163}{MicroFPS::EventManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_event_manager_ac9bc6edff543d37c14181b7cb30d653e}{
+\index{MicroFPS::EventManager@{MicroFPS::EventManager}!getGenericHandler@{getGenericHandler}}
+\index{getGenericHandler@{getGenericHandler}!MicroFPS::EventManager@{MicroFPS::EventManager}}
+\subsubsection[{getGenericHandler}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf EventHandler}$\ast$ MicroFPS::EventManager::getGenericHandler (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d5a/class_micro_f_p_s_1_1_event_manager_ac9bc6edff543d37c14181b7cb30d653e}
+getGenericHandler get the generic handler 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_event_manager_impl_aad2ac69757099f6ce69b51bf50da4f26}{MicroFPS::EventManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_event_manager_ad690afd2f2f8f178f9bba29a85613949}{
+\index{MicroFPS::EventManager@{MicroFPS::EventManager}!getHandler@{getHandler}}
+\index{getHandler@{getHandler}!MicroFPS::EventManager@{MicroFPS::EventManager}}
+\subsubsection[{getHandler}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf EventHandler}$\ast$ MicroFPS::EventManager::getHandler (
+\begin{DoxyParamCaption}
+\item[{const std::string \&}]{name}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d5a/class_micro_f_p_s_1_1_event_manager_ad690afd2f2f8f178f9bba29a85613949}
+getHandler get a specified handler 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_event_manager_impl_a1a0a7c27fd4d61ce003303b51709b4f1}{MicroFPS::EventManagerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_event_manager_ac575b16e0c608ffb5fcde9e861b4c876}{
+\index{MicroFPS::EventManager@{MicroFPS::EventManager}!removeHandler@{removeHandler}}
+\index{removeHandler@{removeHandler}!MicroFPS::EventManager@{MicroFPS::EventManager}}
+\subsubsection[{removeHandler}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::EventManager::removeHandler (
+\begin{DoxyParamCaption}
+\item[{const std::string \&}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{d8/d5a/class_micro_f_p_s_1_1_event_manager_ac575b16e0c608ffb5fcde9e861b4c876}
+removeHandler Remove a handler 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_event_manager_impl_ad4e79a99503aad699d3ee4047eae7e9b}{MicroFPS::EventManagerImpl}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Managers/EventManager.h\end{DoxyCompactItemize}

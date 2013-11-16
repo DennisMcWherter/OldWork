@@ -1,0 +1,184 @@
+\hypertarget{class_micro_f_p_s_1_1_player}{
+\section{MicroFPS::Player Class Reference}
+\label{dc/d87/class_micro_f_p_s_1_1_player}\index{MicroFPS::Player@{MicroFPS::Player}}
+}
+
+
+{\ttfamily \#include $<$Player.h$>$}
+
+Inheritance diagram for MicroFPS::Player:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{dc/d87/class_micro_f_p_s_1_1_player}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_micro_f_p_s_1_1_player_a180068a9d6a1f1fbd4a009e1a738db7f}{Player} ()
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_player_a64e0f0e138281ae4e8fe35e20807b39f}{$\sim$Player} ()
+\item 
+virtual s16 \hyperlink{class_micro_f_p_s_1_1_player_a61d0d42c42bf519b5e499ba17a4b5fb0}{getHealth} () const =0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_weapon}{Weapon} $\ast$ \hyperlink{class_micro_f_p_s_1_1_player_a7ed768074f43284dd15b24b4d5ab9c87}{getWeapon} () const =0
+\item 
+virtual \hyperlink{class_micro_f_p_s_1_1_weapon_manager}{WeaponManager} $\ast$ \hyperlink{class_micro_f_p_s_1_1_player_ab691a249d2381824a253b32188371a59}{getWeaponManager} () const =0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_player_ab1c3cc6a9b1f6275a734f8f2c1188bd3}{setWeaponManager} (\hyperlink{class_micro_f_p_s_1_1_weapon_manager}{WeaponManager} $\ast$mgr)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_player_a05e06a8d76923d00af2b1f7650fbbeab}{setHealth} (s16 health)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_player_acfd29eac2567aa8fae1ab9c5c2b3809f}{decreaseHealth} (u16 amount)=0
+\item 
+virtual void \hyperlink{class_micro_f_p_s_1_1_player_a9ae7cf9c4f7c0dcaf708fc3b03ab90ba}{addHealth} (u16 amount)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_micro_f_p_s_1_1_player}{Player} Abstract base class for player 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_micro_f_p_s_1_1_player_a180068a9d6a1f1fbd4a009e1a738db7f}{
+\index{MicroFPS::Player@{MicroFPS::Player}!Player@{Player}}
+\index{Player@{Player}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{Player}]{\setlength{\rightskip}{0pt plus 5cm}MicroFPS::Player::Player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_a180068a9d6a1f1fbd4a009e1a738db7f}
+Constructor \hypertarget{class_micro_f_p_s_1_1_player_a64e0f0e138281ae4e8fe35e20807b39f}{
+\index{MicroFPS::Player@{MicroFPS::Player}!$\sim$Player@{$\sim$Player}}
+\index{$\sim$Player@{$\sim$Player}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{$\sim$Player}]{\setlength{\rightskip}{0pt plus 5cm}virtual MicroFPS::Player::$\sim$Player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, virtual\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_a64e0f0e138281ae4e8fe35e20807b39f}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_micro_f_p_s_1_1_player_a9ae7cf9c4f7c0dcaf708fc3b03ab90ba}{
+\index{MicroFPS::Player@{MicroFPS::Player}!addHealth@{addHealth}}
+\index{addHealth@{addHealth}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{addHealth}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Player::addHealth (
+\begin{DoxyParamCaption}
+\item[{u16}]{amount}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_a9ae7cf9c4f7c0dcaf708fc3b03ab90ba}
+addHealth 
+\begin{DoxyParams}{Parameters}
+{\em u16} & amount -\/ amount to increase health by \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_player_impl_a058ce6f4c367471d112c536f57abd838}{MicroFPS::PlayerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_player_acfd29eac2567aa8fae1ab9c5c2b3809f}{
+\index{MicroFPS::Player@{MicroFPS::Player}!decreaseHealth@{decreaseHealth}}
+\index{decreaseHealth@{decreaseHealth}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{decreaseHealth}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Player::decreaseHealth (
+\begin{DoxyParamCaption}
+\item[{u16}]{amount}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_acfd29eac2567aa8fae1ab9c5c2b3809f}
+decreaseHealth 
+\begin{DoxyParams}{Parameters}
+{\em u16} & amount -\/ amount to decrease health by \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_player_impl_aa36c4c832a2b6318d596a2465eb0a7dd}{MicroFPS::PlayerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_player_a61d0d42c42bf519b5e499ba17a4b5fb0}{
+\index{MicroFPS::Player@{MicroFPS::Player}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{getHealth}]{\setlength{\rightskip}{0pt plus 5cm}virtual s16 MicroFPS::Player::getHealth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_a61d0d42c42bf519b5e499ba17a4b5fb0}
+getHealth 
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_player_impl_a7fd93d1ce2555492b8959cb62c9e9820}{MicroFPS::PlayerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_player_a7ed768074f43284dd15b24b4d5ab9c87}{
+\index{MicroFPS::Player@{MicroFPS::Player}!getWeapon@{getWeapon}}
+\index{getWeapon@{getWeapon}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{getWeapon}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Weapon}$\ast$ MicroFPS::Player::getWeapon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_a7ed768074f43284dd15b24b4d5ab9c87}
+getWeapon \begin{DoxyReturn}{Returns}
+Weapon$\ast$ -\/ current weapon 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_player_impl_a91ad224c4e19604711e650a8552bcdde}{MicroFPS::PlayerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_player_ab691a249d2381824a253b32188371a59}{
+\index{MicroFPS::Player@{MicroFPS::Player}!getWeaponManager@{getWeaponManager}}
+\index{getWeaponManager@{getWeaponManager}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{getWeaponManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf WeaponManager}$\ast$ MicroFPS::Player::getWeaponManager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_ab691a249d2381824a253b32188371a59}
+getWeaponManager \begin{DoxyReturn}{Returns}
+WeaponManager$\ast$ -\/ curent weapon manager 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_player_impl_ac9c28a319fd83b1a10aca306e0693905}{MicroFPS::PlayerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_player_a05e06a8d76923d00af2b1f7650fbbeab}{
+\index{MicroFPS::Player@{MicroFPS::Player}!setHealth@{setHealth}}
+\index{setHealth@{setHealth}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{setHealth}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Player::setHealth (
+\begin{DoxyParamCaption}
+\item[{s16}]{health}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_a05e06a8d76923d00af2b1f7650fbbeab}
+setHealth 
+\begin{DoxyParams}{Parameters}
+{\em s16} & health -\/ set health \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_player_impl_a94de84c70f846f4c59f0079d72b81bc9}{MicroFPS::PlayerImpl}.
+
+\hypertarget{class_micro_f_p_s_1_1_player_ab1c3cc6a9b1f6275a734f8f2c1188bd3}{
+\index{MicroFPS::Player@{MicroFPS::Player}!setWeaponManager@{setWeaponManager}}
+\index{setWeaponManager@{setWeaponManager}!MicroFPS::Player@{MicroFPS::Player}}
+\subsubsection[{setWeaponManager}]{\setlength{\rightskip}{0pt plus 5cm}virtual void MicroFPS::Player::setWeaponManager (
+\begin{DoxyParamCaption}
+\item[{{\bf WeaponManager} $\ast$}]{mgr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{dc/d87/class_micro_f_p_s_1_1_player_ab1c3cc6a9b1f6275a734f8f2c1188bd3}
+setWeaponManager 
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_micro_f_p_s_1_1_weapon_manager}{WeaponManager}} & $\ast$ mgr -\/ weapon manager to change to -\/ note that this will \_\-DESTROY\_\- your current \hyperlink{class_micro_f_p_s_1_1_weapon_manager}{WeaponManager} if passed a valid new one \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_micro_f_p_s_1_1_player_impl_a5d82f20e5a716af9d4408c361cdceabb}{MicroFPS::PlayerImpl}.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+C:/Users/Dennis/Desktop/MicroFPS/src/MicroFPS/src/Player/Player.h\end{DoxyCompactItemize}
