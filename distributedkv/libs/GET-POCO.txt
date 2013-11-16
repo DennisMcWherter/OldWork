@@ -1,0 +1,2 @@
+To retrieve Poco library, please visit http://pocoproject.org/download/index.html 
+

@@ -1,0 +1,24 @@
+Name		MyHero
+Level		0
+Experience	0
+Health		100
+
+Money		0
+Shield		0	
+Weapon		0
+Gloves		0
+Boots		0
+Ring1		0
+Ring2		0
+Necklace	0
+
+OtherItems 	0
+
+Position	0	0	0
+Rotation	0	0	0
+
+
+
+
+
+

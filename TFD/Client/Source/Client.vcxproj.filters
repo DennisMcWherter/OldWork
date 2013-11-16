@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scr">
+      <UniqueIdentifier>{97ddd94a-97d4-48f4-b392-155d53902450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{c44e95c4-397f-4bae-889b-ebb4429af401}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scr\AiBasic.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\BasicNPC.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\BasicStats.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\Client.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\EventReceiver.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\GameObjects.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\Hero.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\Hud.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\LoginInterface.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\MenuInterface.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\Object.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\SceneManager.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\Sound.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\Stats.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\TestNpc.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scr\Trees.cpp">
+      <Filter>Scr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scr\Include\AIBasic.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\BasicNPC.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\BasicStats.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\Client.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\EventReceiver.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\GameObjects.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\Hero.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\Hud.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\InterdaceDefines.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\LoginInterface.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\MenuInterface.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\Object.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\SceneManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\Sound.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\Stats.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\TestNpc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Scr\Include\Tree.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

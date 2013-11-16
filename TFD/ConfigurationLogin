@@ -1,0 +1,11 @@
+# Configuration example by infernale890
+
+
+LoginDB.host     = 127.0.0.1
+LoginDB.port     = 3306
+LoginDB.username = root
+LoginDB.password = password
+LoginDB.database = database
+
+
+

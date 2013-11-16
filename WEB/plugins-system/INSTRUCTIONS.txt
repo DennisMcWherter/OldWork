@@ -1,0 +1,7 @@
+Run SQL query.
+
+Make directory "includes/plugins/uploads" (CHMOD 0777)
+
+Upload the included files. 
+
+You're good to go!
